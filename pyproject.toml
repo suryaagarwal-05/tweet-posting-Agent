@@ -1,0 +1,15 @@
+[project]
+name = "tweet-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipython>=9.4.0",
+    "langchain[google-genai]>=0.3.27",
+    "langgraph>=0.6.2",
+    "langsmith>=0.4.8",
+    "pydantic>=2.11.7",
+    "tweepy>=4.16.0",
+]
