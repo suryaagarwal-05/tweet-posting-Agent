@@ -8,6 +8,6 @@ wheels/
 .env
 .python-version
 uv.lock
-
+*.log
 # Virtual environments
 .venv
